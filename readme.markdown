@@ -29,3 +29,7 @@ png filename
 
 ### delay (in ms)
 default `0`
+
+### crop
+uses the [nativeImage](https://electronjs.org/docs/api/native-image#imagecroprect) crop function.
+needs an [electron rectangle object](https://electronjs.org/docs/api/structures/rectangle)

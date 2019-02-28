@@ -10,7 +10,11 @@ function screenshot (opt, cb) {
   }
   setTimeout(function () {
     remote.getCurrentWindow().capturePage(function handleCapture (img) {
+		if(opt.crop!==undefined){
+			img = img.crop(opt.crop);
+		}
       remote.require('fs').writeFile(opt.filename, img.toPNG(), cb)
     })
   }, opt.delay)
+  return 0;
 }
