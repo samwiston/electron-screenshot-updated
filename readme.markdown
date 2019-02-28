@@ -4,10 +4,12 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/electron-screenshot.svg)](https://greenkeeper.io/)
 
 Take screenshots in an electron window.
+*Note*: This is an updated version of an existing package by [JamesKyburz](https://github.com/JamesKyburz/electron-screenshot). 
+The package was broken due to an update with electron.
 
 # Install
 
-npm install electron-screenshot
+npm install electron-screenshot-updated
 
 # Usage
 
