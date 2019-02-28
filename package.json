@@ -1,23 +1,23 @@
 {
-  "name": "electron-screenshot",
+  "name": "electron-screenshot-updated",
   "description": "take a screenshot in an existing electron window",
   "keywords": "electron screenshots testing atom-shell",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jameskyburz/electron-screenshot"
+    "url": "https://github.com/samwiston/electron-screenshot-updated"
   },
   "author": {
     "name": "James Kyburz",
     "email": "james.kyburz@gmail.com"
   },
   "main": "index.js",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "scripts": {
     "prepublish": "standard",
     "preversion": "standard"
   },
   "license": "MIT",
   "devDependencies": {
-    "standard": "10.0.2"
+    "standard": "^10.0.3"
   }
 }
