@@ -10,7 +10,7 @@ function screenshot (opt, cb) {
   }
   setTimeout(function () {
     remote.getCurrentWindow().capturePage(function handleCapture (img) {
-      remote.require('fs').writeFile(opt.filename, img.toPng(), cb)
+      remote.require('fs').writeFile(opt.filename, img.toPNG(), cb)
     })
   }, opt.delay)
 }
